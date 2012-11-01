@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af29f09-b1c5-47ae-ac3f-cb3108157393" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/pwd_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/aventine-rails.iml" afterPath="$PROJECT_DIR$/.idea/aventine-rails.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="aventine-rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +27,7 @@
       <file leaf-file-name="pwd_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/pwd_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="34" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.6984127">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@aventine-rails/gems/railties-3.2.8/lib/rails/commands/console.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+            <state line="25" column="30" selection-start="734" selection-end="734" vertical-scroll-proportion="0.58411217">
               <folding />
             </state>
           </provider>
@@ -68,20 +57,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: aventine-rails" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -92,10 +67,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="259" />
-    <option name="y" value="55" />
-    <option name="width" value="1606" />
-    <option name="height" value="1128" />
+    <option name="y" value="77" />
+    <option name="width" value="1920" />
+    <option name="height" value="1169" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -129,10 +103,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="aventine-rails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -179,8 +149,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,11 +414,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: aventine-rails" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: aventine-rails" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: aventine-rails" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: aventine-rails" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: aventine-rails" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: aventine-rails" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -479,6 +449,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="1af29f09-b1c5-47ae-ac3f-cb3108157393" name="Default" comment="" />
       <created>1351678870234</created>
       <updated>1351678870234</updated>
     </task>
@@ -494,27 +465,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="259" y="55" width="1606" height="1128" extended-state="0" />
+    <frame x="0" y="77" width="1920" height="1169" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932934" sideWeight="0.4948652" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932934" sideWeight="0.4948652" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329" sideWeight="0.4903537" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27984595" sideWeight="0.6706707" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28724545" sideWeight="0.671" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932934" sideWeight="0.5006418" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35235235" sideWeight="0.49229783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35235235" sideWeight="0.50589496" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.352" sideWeight="0.4903537" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932934" sideWeight="0.4948652" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -572,6 +543,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/helpers/pwd_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="34" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="41" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
@@ -579,16 +557,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@aventine-rails/gems/railties-3.2.8/lib/rails/commands/console.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/pwd_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
+        <state line="38" column="34" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="41" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="41" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/aventine-rails.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.21060842">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/pwd_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="34" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.6984127">
+        <state line="25" column="30" selection-start="734" selection-end="734" vertical-scroll-proportion="0.58411217">
           <folding />
         </state>
       </provider>
