@@ -1,12 +1,14 @@
 class PwdGenerator
-  ATTRIBUTES = [:no_words, :no_uppercase_alpha, :no_lowercase_alpha, :no_symbols, :no_numerics, :no_passwords]
+  ATTRIBUTES = [:no_words, :no_uppercase_alpha, :no_lowercase_alpha, :no_symbols, :no_numerics, :no_passwords,
+                :word_separator]
   DEFAULTS= {
       :no_words => 3,
       :no_uppercase_alpha => 4,
       :no_lowercase_alpha => 4,
       :no_symbols => 1,
       :no_numerics => 2,
-      :no_passwords => 10}
+      :no_passwords => 10,
+      :word_separator => ' '}
   RULES = [:uppercase, :lowercase, :numerics]
   RANDOM = Random::new
   attr_accessor *ATTRIBUTES
@@ -40,7 +42,7 @@ class PwdGenerator
         end
         words << word
       end
-      passwords << words.shuffle.join(' ')
+      passwords << words.shuffle.join(@word_separator)
     end
     passwords
   end
