@@ -33,7 +33,7 @@ class PwdGenerator
           when :uppercase
             (1..@no_uppercase_alpha).each { word += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[RANDOM.rand(0..25), 1] }
           when :lowercase
-            (1..@no_lowercase_alpha).each { word += "abcdefghijkmnopqrstuvwxyz"[RANDOM.rand(0..25), 1] }
+            (1..@no_lowercase_alpha).each { word += "abcdefghijklmnopqrstuvwxyz"[RANDOM.rand(0..25), 1] }
           else
             strokes = []
             (1..@no_numerics).each { strokes << "0123456789"[RANDOM.rand(0..8), 1] }
