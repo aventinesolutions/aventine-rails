@@ -16,9 +16,12 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer','~> 0.10.0', :platform => :ruby
   gem 'uglifier', '>= 1.0.3'
+  gem 'compass_twitter_bootstrap'
 end
 
 gem 'jquery-rails'
+gem 'compass-rails'
+gem 'haml-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -34,3 +37,40 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'guard', '>= 0.6.2'
+  gem 'pg'
+  gem 'rails-footnotes', '>= 3.7.5.rc4'
+  # gem 'spreadsheet', '~> 0.6.5.9'
+  # gem 'rails-dev-tweaks', '~> 0.6.1'
+  gem 'pry-rails', '~> 0.2.1'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'hydra', :require => false
+  gem 'turn', :require => false
+  gem 'execjs'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'spork-rails'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'capybara'
+  gem 'capybara-webkit'
+end
+
+group :test do
+  gem 'autotest-standalone'
+  gem 'cucumber-rails', require: false
+  gem 'gherkin', '2.11.1'
+  gem 'pickle'
+  gem 'minitest'
+  gem 'shoulda-matchers'
+  gem 'timecop'
+  gem 'jasmine', require: false
+end
