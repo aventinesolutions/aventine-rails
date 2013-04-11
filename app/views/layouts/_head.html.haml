@@ -3,8 +3,7 @@
 %head
   %title
     Aventine Solutions
-  = stylesheet_link_tag     stylesheet, :media => :all
-  = stylesheet_link_tag     :print,     :media => :print
+  = stylesheet_link_tag stylesheet, :media => :all
   = javascript_include_tag  :application
   = yield :head_append
   = csrf_meta_tags
