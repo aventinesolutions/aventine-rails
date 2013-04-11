@@ -1,0 +1,8 @@
+!!!
+%html{:class => yield(:html_css_class)}
+
+  = render 'layouts/head'
+
+  %body{:class => yield(:body_css_class)}
+    = render 'layouts/page_header'
+    = yield
