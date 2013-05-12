@@ -26,9 +26,6 @@ gem 'haml-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -61,7 +58,7 @@ group :test, :development do
   gem 'guard-rspec'
   gem 'guard-cucumber'
   gem 'capybara'
-  gem 'capybara-webkit'
+  gem 'capybara-webkit', :git => 'https://github.com/thoughtbot/capybara-webkit.git'
 end
 
 group :test do
