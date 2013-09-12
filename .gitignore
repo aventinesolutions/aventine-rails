@@ -6,6 +6,9 @@
 
 :ruby
 
+# Emacs temporary files
+*~ 
+
 # Ignore bundler config
 /.bundle
 
