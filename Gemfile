@@ -63,11 +63,9 @@ group :test, :development do
 end
 
 group :test do
-  gem 'autotest-standalone'
   gem 'cucumber-rails', require: false
   gem 'gherkin', '2.11.1'
   gem 'pickle'
-  gem 'minitest'
   gem 'shoulda-matchers'
   gem 'timecop'
   gem 'jasmine', require: false
