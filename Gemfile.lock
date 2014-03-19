@@ -121,7 +121,7 @@ GEM
       activesupport
     diff-lcs (1.2.5)
     ensure_valid_encoding (0.5.3)
-    equivalent-xml (0.4.1)
+    equivalent-xml (0.4.2)
       nokogiri (>= 1.4.3)
     erubis (2.7.0)
     execjs (2.0.2)
@@ -249,7 +249,7 @@ GEM
       mediashelf-loggable
       nokogiri (>= 1.4.2)
       solrizer (~> 3.1.0)
-    passenger (4.0.38)
+    passenger (4.0.40)
       daemon_controller (>= 1.2.0)
       rack
       rake (>= 0.8.1)
@@ -369,7 +369,7 @@ GEM
     tilt (1.4.1)
     timecop (0.7.1)
     timers (1.1.0)
-    tins (1.0.0)
+    tins (1.0.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
