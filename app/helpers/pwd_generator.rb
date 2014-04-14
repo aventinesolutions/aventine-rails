@@ -3,10 +3,10 @@ class PwdGenerator
                 :word_separator]
   DEFAULTS= {
       :no_words => 3,
-      :no_uppercase_alpha => 4,
-      :no_lowercase_alpha => 4,
+      :no_uppercase_alpha => 5,
+      :no_lowercase_alpha => 5,
       :no_symbols => 1,
-      :no_numerics => 2,
+      :no_numerics => 3,
       :no_passwords => 10,
       :word_separator => ' '}
   RULES = [:uppercase, :lowercase, :numerics]
