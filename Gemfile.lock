@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/thoughtbot/capybara-webkit.git
-  revision: 144a43ff7b6c71bf655905f06853b29ed111f335
+  revision: c1b501ca525532d261ded8d3c0c6408716a1f8ef
   specs:
-    capybara-webkit (1.2.0)
-      capybara (>= 2.0.2, < 2.4.0)
+    capybara-webkit (1.3.0)
+      capybara (>= 2.0.2, < 2.5.0)
       json
 
 GEM
@@ -68,7 +68,7 @@ GEM
     bootstrap-sass (3.2.0.1)
       sass (~> 3.2)
     builder (3.1.4)
-    cancancan (1.9.1)
+    cancancan (1.9.2)
     capistrano (3.2.1)
       i18n
       rake (>= 10.0.0)
@@ -76,7 +76,7 @@ GEM
     capistrano-rvm (0.1.1)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capybara (2.3.0)
+    capybara (2.4.1)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
       rack (>= 1.0.0)
@@ -96,10 +96,18 @@ GEM
       execjs
     coffee-script-source (1.7.1)
     colorize (0.7.3)
-    compass (0.12.7)
+    compass (1.0.1)
       chunky_png (~> 1.2)
-      fssm (>= 0.2.7)
-      sass (~> 3.2.19)
+      compass-core (~> 1.0.1)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.1)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
     compass-rails (2.0.0)
       compass (>= 0.12.2)
     compass_twitter_bootstrap (2.3.1)
@@ -134,12 +142,11 @@ GEM
     factory_girl_rails (4.4.1)
       factory_girl (~> 4.4.0)
       railties (>= 3.0.0)
-    faker (1.4.2)
+    faker (1.4.3)
       i18n (~> 0.5)
     fastercsv (1.5.5)
     ffi (1.9.3)
     formatador (0.2.5)
-    fssm (0.2.10)
     gherkin (2.11.1)
       json (>= 1.4.6)
     guard (2.6.1)
@@ -275,7 +282,7 @@ GEM
       cucumber (>= 0.8)
       rake
     polyglot (0.3.5)
-    pry (0.10.0)
+    pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -347,12 +354,12 @@ GEM
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
       rspec-mocks (~> 3.0.0)
-    rspec-core (3.0.3)
+    rspec-core (3.0.4)
       rspec-support (~> 3.0.0)
-    rspec-expectations (3.0.3)
+    rspec-expectations (3.0.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.0.0)
-    rspec-mocks (3.0.3)
+    rspec-mocks (3.0.4)
       rspec-support (~> 3.0.0)
     rspec-rails (3.0.2)
       actionpack (>= 3.0)
@@ -362,7 +369,7 @@ GEM
       rspec-expectations (~> 3.0.0)
       rspec-mocks (~> 3.0.0)
       rspec-support (~> 3.0.0)
-    rspec-support (3.0.3)
+    rspec-support (3.0.4)
     rubydora (1.8.0)
       activemodel
       activesupport
@@ -373,7 +380,7 @@ GEM
       mime-types
       nokogiri
       rest-client
-    sass (3.2.19)
+    sass (3.4.0)
     sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
@@ -416,7 +423,7 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    stomp (1.3.2)
+    stomp (1.3.3)
     sxp (0.1.5)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
@@ -432,7 +439,7 @@ GEM
     turn (0.9.7)
       ansi
       minitest (~> 4)
-    tzinfo (0.3.40)
+    tzinfo (0.3.41)
     uber (0.0.8)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
