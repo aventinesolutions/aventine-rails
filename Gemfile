@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,11 +39,13 @@ gem 'capistrano-rvm'
 gem 'passenger'
 
 group :development do
-  gem 'guard', '>= 0.6.2'
+  gem 'guard', '~>2'
   gem 'rails-footnotes', '>= 3.7.5.rc4'
   gem 'pry-rails', '~> 0.2.1'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'debase', '~>0'
+  gem 'ruby-debug-ide', '~>0'
 end
 
 group :test, :development do
@@ -56,7 +58,6 @@ group :test, :development do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'spork-rails'
   gem 'guard-rspec'
-  gem 'guard-cucumber'
   gem 'capybara'
   gem 'capybara-webkit', :git => 'https://github.com/thoughtbot/capybara-webkit.git'
   gem 'faker'
