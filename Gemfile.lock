@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/thoughtbot/capybara-webkit.git
-  revision: e8cc0fa3823cb1f216c1c1b63c4845d5f8916b79
+  revision: e49176beac75b5a368d37ec5833b13fe8b597416
   specs:
     capybara-webkit (1.5.0)
       capybara (>= 2.3.0, < 2.5.0)
@@ -64,7 +64,7 @@ GEM
     addressable (2.3.8)
     ansi (1.5.0)
     arel (6.0.0)
-    autoprefixer-rails (5.1.8.1)
+    autoprefixer-rails (5.1.9)
       execjs
       json
     bcp47 (0.3.3)
