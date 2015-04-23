@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/thoughtbot/capybara-webkit.git
-  revision: e49176beac75b5a368d37ec5833b13fe8b597416
+  revision: f8f2048500f8157f2cd0b2038c4cfcf205aa1ccb
   specs:
     capybara-webkit (1.5.0)
       capybara (>= 2.3.0, < 2.5.0)
@@ -28,7 +28,7 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.1)
-    active-fedora (9.0.7)
+    active-fedora (9.0.6)
       active-triples (~> 0.6.0)
       activesupport (>= 4.1.0)
       deprecation
@@ -145,7 +145,7 @@ GEM
       haml (~> 4.0)
       rdf (~> 1.1)
       sxp (~> 0.1, >= 0.1.3)
-    equivalent-xml (0.5.1)
+    equivalent-xml (0.6.0)
       nokogiri (>= 1.4.3)
     erubis (2.7.0)
     execjs (2.5.2)
@@ -256,7 +256,7 @@ GEM
       slop
     libv8 (3.16.14.7)
     link_header (0.0.8)
-    linkeddata (1.1.11)
+    linkeddata (1.1.11.1)
       equivalent-xml (~> 0.5)
       json-ld (~> 1.1, >= 1.1.8)
       nokogiri (~> 1.6)
