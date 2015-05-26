@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/thoughtbot/capybara-webkit.git
-  revision: af06f696e121a2e357ee7970579858cabada2408
+  revision: 179ca5b6daa25d54b111a3a7fce4e21a5d51ac60
   specs:
     capybara-webkit (1.5.0)
       capybara (>= 2.3.0, < 2.5.0)
@@ -134,7 +134,7 @@ GEM
       rails (>= 3.0.0)
     daemons (1.2.2)
     database_cleaner (1.4.1)
-    debase (0.1.3)
+    debase (0.1.4)
       debase-ruby_core_source
     debase-ruby_core_source (0.7.9)
     debug_inspector (0.0.2)
@@ -229,7 +229,7 @@ GEM
       phantomjs
       rack (>= 1.2.1)
       rake
-    jasmine-core (2.3.2)
+    jasmine-core (2.3.4)
     jettywrapper (2.0.3)
       activesupport (>= 3.0.0)
       childprocess
@@ -287,7 +287,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
-    mime-types (2.5)
+    mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.6.1)
     multi_json (1.11.0)
@@ -311,10 +311,10 @@ GEM
       activesupport
       nokogiri (>= 1.4.2)
       solrizer (~> 3.3)
-    passenger (5.0.7)
+    passenger (5.0.8)
       rack
       rake (>= 0.8.1)
-    pg (0.18.1)
+    pg (0.18.2)
     phantomjs (1.9.8.0)
     pickle (0.5.1)
       cucumber (>= 0.8)
@@ -345,7 +345,7 @@ GEM
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)
-    rails-footnotes (4.1.6)
+    rails-footnotes (4.1.7)
       rails (>= 3.2)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
@@ -355,10 +355,10 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
-    rb-fsevent (0.9.4)
+    rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rdf (1.1.12)
+    rdf (1.1.13)
       link_header (~> 0.0, >= 0.0.8)
     rdf-aggregate-repo (1.1.0)
       rdf (>= 1.1)
@@ -403,10 +403,10 @@ GEM
       rdf-turtle (~> 1.1, >= 1.1.6)
     rdf-trix (1.1.0)
       rdf (>= 1.1)
-    rdf-turtle (1.1.6)
+    rdf-turtle (1.1.7)
       ebnf (~> 0.3, >= 0.3.6)
       rdf (~> 1.1, >= 1.1.10)
-    rdf-vocab (0.8.1)
+    rdf-vocab (0.8.3)
       rdf (~> 1.1, >= 1.1.10)
     rdf-xsd (1.1.3)
       rdf (~> 1.1, >= 1.1.9)
@@ -434,7 +434,7 @@ GEM
       rspec-mocks (~> 3.2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
-    ruby-debug-ide (0.4.30)
+    ruby-debug-ide (0.4.32)
       rake (>= 0.8.1)
     ruby_parser (3.6.6)
       sexp_processor (~> 4.1)
@@ -456,10 +456,10 @@ GEM
       nokogiri
       stomp
       xml-simple
-    sparql (1.1.6)
+    sparql (1.1.7)
       builder (~> 3.2)
       ebnf (~> 0.3, >= 0.3.9)
-      rdf (~> 1.1, >= 1.1.12)
+      rdf (~> 1.1, >= 1.1.13)
       rdf-aggregate-repo (~> 1.1, >= 1.1.0)
       rdf-xsd (~> 1.1)
       sparql-client (~> 1.1)
@@ -476,7 +476,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.3.0)
+    sprockets-rails (2.3.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
