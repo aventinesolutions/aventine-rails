@@ -132,7 +132,7 @@ GEM
       rails (>= 3.0.0)
     daemons (1.2.3)
     database_cleaner (1.4.1)
-    debase (0.1.6)
+    debase (0.1.7)
       debase-ruby_core_source
     debase-ruby_core_source (0.7.9)
     debug_inspector (0.0.2)
