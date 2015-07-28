@@ -162,7 +162,7 @@ GEM
       json (>= 1.4.6)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
-    guard (2.12.9)
+    guard (2.13.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, <= 4.0)
       lumberjack (~> 1.0)
@@ -252,7 +252,7 @@ GEM
       slop
     libv8 (3.16.14.11)
     link_header (0.0.8)
-    linkeddata (1.1.11)
+    linkeddata (1.1.11.1)
       equivalent-xml (~> 0.5)
       json-ld (~> 1.1, >= 1.1.8)
       nokogiri (~> 1.6)
@@ -299,7 +299,7 @@ GEM
       activesupport (>= 3.2.18)
       i18n
       nokogiri
-    notiffany (0.0.6)
+    notiffany (0.0.7)
       nenv (~> 0.1)
       shellany (~> 0.0)
     om (3.1.0)
@@ -322,6 +322,11 @@ GEM
     pry-rails (0.2.2)
       pry (>= 0.9.10)
     rack (1.6.4)
+    rack-linkeddata (1.1.0)
+      linkeddata (>= 1.1.0)
+      rack (>= 1.4)
+    rack-protection (1.5.3)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.3)
@@ -362,9 +367,15 @@ GEM
       rdf (>= 1.1)
     rdf-json (1.1.2)
       rdf (~> 1.1)
-    rdf-ldp (0.1.0)
-      deprecation
-      rdf
+    rdf-ldp (0.2.0)
+      json-ld
+      link_header
+      rack
+      rack-linkeddata
+      rdf (~> 1.1)
+      rdf-turtle (~> 1.1)
+      rdf-vocab
+      sinatra
     rdf-microdata (2.0.1)
       htmlentities (~> 4.3)
       nokogiri (~> 1.6)
@@ -431,7 +442,7 @@ GEM
       rspec-mocks (~> 3.3.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
-    ruby-debug-ide (0.4.33)
+    ruby-debug-ide (0.5.0)
       rake (>= 0.8.1)
     ruby_parser (3.7.0)
       sexp_processor (~> 4.1)
@@ -446,6 +457,10 @@ GEM
     shellany (0.0.1)
     shoulda-matchers (2.8.0)
       activesupport (>= 3.0.0)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
     slop (3.6.0)
     solrizer (3.3.0)
       activesupport
@@ -490,7 +505,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    timecop (0.7.4)
+    timecop (0.8.0)
     turn (0.9.6)
       ansi
     tzinfo (1.2.2)
