@@ -307,7 +307,7 @@ GEM
       activesupport
       nokogiri (>= 1.4.2)
       solrizer (~> 3.3)
-    passenger (5.0.14)
+    passenger (5.0.15)
       rack
       rake (>= 0.8.1)
     pg (0.18.2)
