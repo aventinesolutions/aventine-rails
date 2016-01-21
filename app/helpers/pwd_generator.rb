@@ -10,7 +10,6 @@ class PwdGenerator
       no_passwords: 10,
       word_separator: ' '}
   RULES = [:uppercase, :lowercase, :numerics]
-  RANDOM = Random::new
   attr_accessor *ATTRIBUTES
 
   def initialize(options = {})
@@ -30,13 +29,13 @@ class PwdGenerator
         word = ''
         case rule
           when :uppercase
-            @no_uppercase_alpha.times { word += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[RANDOM.rand(0..25), 1] }
+            @no_uppercase_alpha.times { word += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[rand(0..25), 1] }
           when :lowercase
-            @no_lowercase_alpha.times { word += "abcdefghijklmnopqrstuvwxyz"[RANDOM.rand(0..25), 1] }
+            @no_lowercase_alpha.times { word += "abcdefghijklmnopqrstuvwxyz"[rand(0..25), 1] }
           else
             strokes = []
-            @no_numerics.times { strokes << "0123456789"[RANDOM.rand(0..8), 1] }
-            @no_symbols.times { strokes << '!@#$&*.:?+='[RANDOM.rand(0..10), 1] }
+            @no_numerics.times { strokes << "0123456789"[rand(0..8), 1] }
+            @no_symbols.times { strokes << '!@#$&*.:?+='[rand(0..10), 1] }
             word = strokes.shuffle.join('')
         end
         words << word
