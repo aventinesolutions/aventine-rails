@@ -18,8 +18,8 @@ class PwdGenerator
   end
 
   def config(options = {})
-    options.each { |key, value| eval "@#{key.to_s} = value" if ATTRIBUTES.include?(key) }
-    ATTRIBUTES.each { |key| eval "@#{key.to_s} ||= DEFAULTS[key]" }
+    options.each { |key, value| eval "@#{key} = value" if ATTRIBUTES.include?(key) }
+    ATTRIBUTES.each { |key| eval "@#{key} ||= DEFAULTS[key]" }
   end
 
   def generate
