@@ -2,13 +2,13 @@ class PwdGenerator
   ATTRIBUTES = [:no_words, :no_uppercase_alpha, :no_lowercase_alpha, :no_symbols, :no_numerics, :no_passwords,
                 :word_separator]
   DEFAULTS= {
-      :no_words => 4,
-      :no_uppercase_alpha => 5,
-      :no_lowercase_alpha => 5,
-      :no_symbols => 1,
-      :no_numerics => 3,
-      :no_passwords => 10,
-      :word_separator => ' '}
+      no_words: 4,
+      no_uppercase_alpha: 5,
+      no_lowercase_alpha: 5,
+      no_symbols: 1,
+      no_numerics: 3,
+      no_passwords: 10,
+      word_separator: ' '}
   RULES = [:uppercase, :lowercase, :numerics]
   RANDOM = Random::new
   attr_accessor *ATTRIBUTES
