@@ -8,6 +8,8 @@ gem 'rails', '4.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+# removing this temporarily because of recent changes to ArchLinux
+# TODO: please bring me back sometime
 # gem 'pg'
 
 
@@ -59,7 +61,9 @@ group :test, :development do
   gem 'spork-rails'
   gem 'guard-rspec'
   gem 'capybara'
-  gem 'capybara-webkit', :git => 'https://github.com/thoughtbot/capybara-webkit.git'
+  # removing this temporarily because of recent changes to ArchLinux
+  # TODO: please bring me back sometime
+  #  gem 'capybara-webkit', :git => 'https://github.com/thoughtbot/capybara-webkit.git'
   gem 'faker'
 end
 
