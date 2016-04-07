@@ -55,7 +55,7 @@ GEM
     addressable (2.4.0)
     ansi (1.5.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.5)
+    autoprefixer-rails (6.3.6)
       execjs
     bcp47 (0.3.3)
       i18n
@@ -135,7 +135,7 @@ GEM
     database_cleaner (1.5.1)
     debase (0.2.1)
       debase-ruby_core_source
-    debase-ruby_core_source (0.8.4)
+    debase-ruby_core_source (0.8.6)
     debug_inspector (0.0.2)
     deprecation (0.2.2)
       activesupport
@@ -177,7 +177,7 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
-    guard-rspec (4.6.4)
+    guard-rspec (4.6.5)
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
@@ -310,7 +310,7 @@ GEM
       activesupport
       nokogiri (>= 1.4.2)
       solrizer (~> 3.3)
-    passenger (5.0.26)
+    passenger (5.0.27)
       rack
       rake (>= 0.8.1)
     phantomjs (2.1.1.0)
@@ -371,7 +371,7 @@ GEM
       rdf-xsd (~> 1.1)
     rdf-n3 (1.99.0)
       rdf (~> 1.99)
-    rdf-rdfa (1.99.0)
+    rdf-rdfa (1.99.1)
       haml (~> 4.0)
       htmlentities (~> 4.3)
       rdf (~> 1.99)
@@ -493,7 +493,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    timecop (0.8.0)
+    timecop (0.8.1)
     turn (0.9.6)
       ansi
     twitter-typeahead-rails (0.11.1)
