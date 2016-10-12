@@ -2,7 +2,7 @@ class PwdGenerator
   ATTRIBUTES = [:no_words, :no_uppercase_alpha, :no_lowercase_alpha, :no_symbols, :no_numerics, :no_passwords,
                 :word_separator]
   DEFAULTS= {
-      no_words: 4,
+      no_words: 5,
       no_uppercase_alpha: 5,
       no_lowercase_alpha: 5,
       no_symbols: 1,
