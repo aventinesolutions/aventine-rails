@@ -61,9 +61,7 @@ group :test, :development do
   gem 'spork-rails'
   gem 'guard-rspec'
   gem 'capybara'
-  # removing this temporarily because of recent changes to ArchLinux
-  # TODO: please bring me back sometime
-  #  gem 'capybara-webkit', :git => 'https://github.com/thoughtbot/capybara-webkit.git'
+  gem 'poltergeist'
   gem 'faker'
 end
 
