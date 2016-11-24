@@ -145,7 +145,7 @@ GEM
     database_cleaner (1.5.3)
     debase (0.2.1)
       debase-ruby_core_source
-    debase-ruby_core_source (0.9.3)
+    debase-ruby_core_source (0.9.4)
     debug_inspector (0.0.2)
     deprecation (1.0.0)
       activesupport
@@ -262,7 +262,7 @@ GEM
       linkeddata (>= 1.1)
       rdf-vocab
       slop
-    libv8 (3.16.14.15)
+    libv8 (3.16.14.17)
     link_header (0.0.8)
     linkeddata (1.99.0)
       equivalent-xml (~> 0.6)
