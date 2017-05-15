@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component name="dataSourceStorage">
-  <data-source name="Rails aventine-rails: development" uuid="897abf58-53d0-4269-9e14-fad9110ea94a">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-  <data-source name="Rails aventine-rails: test" uuid="b387f4b3-f3f9-4ee1-9161-f8cba894eb0e">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-</component>
