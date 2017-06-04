@@ -8,9 +8,7 @@ gem 'rails', '4.2.7'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-# removing this temporarily because of recent changes to ArchLinux
-# TODO: please bring me back sometime
-# gem 'pg'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -63,6 +61,7 @@ group :test, :development do
   gem 'capybara'
   gem 'poltergeist'
   gem 'faker'
+  gem 'rubocop-rails'
 end
 
 group :test do
