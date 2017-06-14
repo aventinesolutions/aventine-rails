@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:stympy/faker.git
+  revision: ebf26149bf63c0d079e01c98e5bc226e33edd437
+  specs:
+    faker (1.8.0)
+      i18n (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -162,8 +169,6 @@ GEM
     factory_girl_rails (4.8.0)
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
-    faker (1.7.3)
-      i18n (~> 0.5)
     faraday (0.12.1)
       multipart-post (>= 1.2, < 3)
     fcrepo_wrapper (0.5.2)
@@ -575,7 +580,7 @@ DEPENDENCIES
   debase (~> 0)
   execjs
   factory_girl_rails (~> 4.0)
-  faker
+  faker!
   gherkin (= 2.11.1)
   guard (~> 2)
   guard-rspec

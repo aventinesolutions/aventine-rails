@@ -60,7 +60,7 @@ group :test, :development do
   gem 'guard-rspec'
   gem 'capybara'
   gem 'poltergeist'
-  gem 'faker'
+  gem 'faker', git: 'git@github.com:stympy/faker.git'
   gem 'rubocop-rails'
 end
 
