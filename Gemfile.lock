@@ -68,7 +68,7 @@ GEM
     ansi (1.5.0)
     arel (6.0.4)
     ast (2.3.0)
-    autoprefixer-rails (7.1.2.4)
+    autoprefixer-rails (7.1.2.6)
       execjs
     bcp47 (0.3.3)
       i18n
@@ -170,7 +170,7 @@ GEM
     factory_girl_rails (4.8.0)
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
-    faraday (0.12.2)
+    faraday (0.13.0)
       multipart-post (>= 1.2, < 3)
     fcrepo_wrapper (0.5.2)
       ruby-progressbar
@@ -312,7 +312,7 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_mime (0.1.3)
+    mini_mime (0.1.4)
     mini_portile2 (2.1.0)
     minitest (5.10.3)
     multi_json (1.12.1)
@@ -461,7 +461,7 @@ GEM
     rspec-mocks (3.6.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.6.0)
-    rspec-rails (3.6.0)
+    rspec-rails (3.6.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -542,7 +542,7 @@ GEM
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
-    thor (0.19.4)
+    thor (0.20.0)
     thread_safe (0.3.6)
     tilt (1.4.1)
     timecop (0.9.1)
