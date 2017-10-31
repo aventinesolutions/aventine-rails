@@ -55,7 +55,7 @@ group :test, :development do
   gem 'execjs'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'factory_girl_rails', '~> 4.0'
+  gem 'factory_bot_rails'
   gem 'spork-rails'
   gem 'guard-rspec'
   gem 'capybara'
