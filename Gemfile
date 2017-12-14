@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 gem 'compass-rails'
 gem 'haml-rails'
+gem 'nokogiri', '~> 1.8.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
