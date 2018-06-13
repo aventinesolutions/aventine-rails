@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:stympy/faker.git
-  revision: 15d2cf4b489bbde67dbabc65baca363189c42aed
+  revision: c7f21a067151d46678974d06261ad06684268047
   specs:
     faker (1.8.7)
       i18n (>= 0.7)
@@ -206,7 +206,7 @@ GEM
     parallel (1.12.1)
     parser (2.5.1.0)
       ast (~> 2.4.0)
-    passenger (5.3.1)
+    passenger (5.3.2)
       rack
       rake (>= 0.8.1)
     pg (1.0.0)
@@ -281,7 +281,7 @@ GEM
       rspec-mocks (~> 3.7.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
-    rubocop (0.57.1)
+    rubocop (0.57.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.5)
